@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Pekao Bank</title>
-    <script type="text/javascript" src="/json/test.json"></script>
 </head>
 <body>
     <header><span>Pekao Bank</span></header>
 </body>
+<script type="text/javascript" src="/json/test.json"></script>
 <script>
-let data = JSON.parse(test.json);
+let data = fetch("/json/test.json")
+  .then(response => response.json())
+  .then(json => console.log(json));
+JSON.stringify(data);
+
 console.log(data);
 
 </script>
