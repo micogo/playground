@@ -13,6 +13,6 @@ let clients = [
 
 for (client of clients){
     console.log(client.name);
-    document.getElementById("clients").innerHTML = client.name +' '+ client.surname;
+    document.getElementById("clients").innerHTML = client.name +' '+ client.surname + "-"+client.balance;
 }
 
