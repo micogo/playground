@@ -1,3 +1,4 @@
 #useless files (txt)
 *.txt
 .DS_Store
+/json

@@ -22,6 +22,12 @@ header {
     text-align: center;
 }
 
-header:hover{
+header:hover {
     background-color: #642283;
+}
+
+#clients {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <title>Pekao Bank</title>
 </head>
+
 <body>
     <header><span>Pekao Bank</span></header>
+    <section>
+        <div id="clients">
+
+        </div>
+    </section>
+    <footer>
+        copy
+    </footer>
 </body>
 <script type="text/javascript" src="/json/test.json"></script>
 <script>
-let data = fetch("/json/test.json")
-  .then(response => response.json())
-  .then(json => console.log(json));
-JSON.stringify(data);
+    let data = {
+            "name": "Jan",
+            "surname": "Kowalski",
+            "balance": 1000
+        },
+        {
+            "name": "Piotr",
+            "surname": "Nowak",
+            "balance": 5000
+        }
 
-console.log(data);
+        let x = JSON.parse(data);
+        console.log(x);
 
+    document.getElementById("clients").innerHTML = x;
 </script>
 
 </html>

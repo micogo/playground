@@ -1,12 +1,11 @@
-[
+
     {
         "name": "Jan",
         "surname": "Kowalski",
-        "balance": "1000"
+        "balance": 1000
     },
     {
         "name": "Piotr",
         "surname": "Nowak",
-        "balance": "5000"
+        "balance": 5000
     }
-]
