@@ -1,4 +1,4 @@
-let user1 = [
+let clients = [
     {
       "name": "Jan",
       "surname": "Kowalski",
@@ -12,6 +12,7 @@ let user1 = [
   ];
 
 for (client of clients){
-    
+    console.log(client.name);
+    document.getElementById("clients").innerHTML = client.name +' '+ client.surname;
 }
 
