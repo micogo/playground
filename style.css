@@ -26,7 +26,7 @@ header>div{
     color: red;
     font-size: 32px;
     text-align: center;
-    transition: width 2s;
+    transition: width 3s;
 }
 
 header>div:hover{
@@ -41,4 +41,8 @@ header>div:hover{
     list-style: none;
     color: chartreuse;
     font-size: 24px;
+}
+
+#clients>li{
+    text-align: center;
 }
