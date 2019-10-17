@@ -14,20 +14,24 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 50%;
     height: 50px;
-    background-color: aquamarine;
+    background-color: #642283;
     color: red;
     font-size: 32px;
     text-align: center;
+    transition: width 2s;
 }
 
 header:hover {
-    background-color: #642283;
+    width: 100%;
 }
 
 #clients {
-    width: 100px;
+    width: 500px;
     height: 100px;
     margin: 100px auto;
+    list-style: none;
+    color: chartreuse;
+    font-size: 24px;
 }
